@@ -1,6 +1,12 @@
 void main() {
-  String my_Name = "ammar";
-  print(my_Name);
-  int my_age = 23;
-  print(my_age);
+  Map MyInformation = {
+    "first_name": "Ammar",
+    "last_name": "obeidat",
+    "age": 23,
+    "education info": {
+      "name": "yarmouk universty",
+      "major": "computer science",
+      "year": 2018,
+    }
+  };
 }
